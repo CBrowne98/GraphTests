@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Web Application</title>
+</head>
+<body>
+		<div id="main">
+			<h1>Database Error</h1>
+			<p>There was an error connecting to the database.</p>
+			<p>Check that the database is created and the server is running.</p>
+			<p>Error message: <?php echo $error_message; ?></p>
+			<p>&nbsp;</p>
+		</div>
+</body>
+</html>
